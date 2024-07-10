@@ -1,6 +1,6 @@
 # ViaCEP Consumer
 
-ViaCEP Consumer é uma aplicação Spring Boot que consulta e armazena informações de endereço. O usuário fornece um CEP, e a aplicação verifica se os dados do endereço já estão cadastrados no banco de dados. Se não estiverem, a aplicação consulta a API ViaCEP para obter as informações do endereço e as armazena no banco de dados.
+ViaCEP Consumer é uma aplicação Spring Boot que consulta e armazena informações de endereço. O usuário fornece um CEP, e a aplicação verifica se os dados do endereço já estão cadastrados no banco de dados. Se não estiverem, a aplicação consulta a [API ViaCEP](https://viacep.com.br/) para obter as informações do endereço e as armazena no banco de dados.
 
 ## Funcionalidades
 
@@ -16,7 +16,7 @@ ViaCEP Consumer é uma aplicação Spring Boot que consulta e armazena informaç
 - Spring Data JPA
 - Hibernate
 - PostgreSQL
-- API ViaCEP
+- OpenFeign
 
 ## Requisitos
 
